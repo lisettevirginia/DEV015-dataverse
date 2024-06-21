@@ -1,4 +1,4 @@
-export default [
+export default [ //volviendo a subir
   {
     "id": "daphne-brigerton",
     "name": "Daphne Bridgerton",
