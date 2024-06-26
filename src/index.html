@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <header>
-      <h1>Los Bridgerton</h1>
+        <h1>Los Bridgerton</h1>
     </header>
+    
     <main>
-      <h2>Descubre sus secretos</h2>
-    </main>  
-    <label for="filtrar">Filtar por:</label>
-    <input type="text" id="filtrar">
-
-    <label for="ordenar">Ordenar por:</label>
-    <input type="text" id="ordenar">
-
-    <label for="buscar">Descubre los secretos:</label>
-    <button type="button" id="buscar">Descubre los secretos:</button>
-
-    <ul>
-      <li>
-      </li>
-    </ul>
-
+        <section>
+            <h2>Descubre sus secretos!</h2>
+            <form id="filter-form">
+                <label for="filtrar">Filtrar por:</label>
+                <input type="text" id="filtrar">
+                <label for="ordenar">Ordenar por:</label>
+                <input type="text" id="ordenar">
+                <button type="button" id="buscar">Descubre los secretos</button>
+            </form>
+        </section>
+        
+        <section id="items-container">
+            <!-- Aquí se insertarán los elementos renderizados -->
+        </section>
+    </main>
+    
     <footer>
-      <p>Lisette Piña - Mayerling Hernandez</p>
+        <p>Lisette Piña - Mayerling Hernandez</p>
     </footer>
-  </body>
-  <script src="main.js" type="module"></script>
+    
+    <script src="main.js" type="module"></script>
+</body>
 </html>
