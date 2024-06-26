@@ -344,7 +344,7 @@ export default [ //volviendo a subir
     "name": "Sir Phillip Crane",
     "shortDescription": "Viudo honorable y botánico, dedicado a sus hijos y en busca de un nuevo amor.",
     "description": "Sir Phillip Crane es un hombre noble y serio, dedicado a su amado trabajo como botánico y a la crianza de sus dos hijos gemelos, tras la muerte de su esposa, Marina Thompson vuelve a casarse con Eloise Bridgerton. A pesar de su apariencia reservada, Phillip es un hombre con un corazón amable y un deseo profundo de encontrar una nueva compañera que le ayude a criar a sus hijos y que le brinde el amor y la felicidad que ha estado buscando.",
-    "imageUrl": "hthttps://i.postimg.cc/gcVQ7S7Y/22.jpg",
+    "imageUrl": "https://i.postimg.cc/gcVQ7S7Y/22.jpg",
    "facts": {
       "edad": "35",
       "sitSentimental": "Casado",
