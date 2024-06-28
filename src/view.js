@@ -1,10 +1,4 @@
 export const renderItems = (data) => {
-
-  //1.llamar a dataset.js a travez de un getElementById
-  //2.Con el forEach creamos la lista (innterHTML)
-  //3.crear el li dentro del HTML 
-  //4.celebramos con café
-  // src/view.js
   
   // Crear un elemento <ul> con una clase específica
   const ulElement = document.createElement('ul');
@@ -25,7 +19,7 @@ export const renderItems = (data) => {
         <ul>
           <li>Edad: ${item.facts.edad}</li>
           <li>Situación Sentimental: ${item.facts.sitSentimental}</li>
-          <li>Pareja: ${item.facts.Pareja}</li>
+          <li>Pareja: ${item.facts.pareja}</li>
         </ul>
         <section class="extra-info">
           <p><strong>Libro:</strong> ${item.extraInfo.libro}</p>
