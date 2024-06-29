@@ -11,21 +11,19 @@ export const renderItems = (data) => {
 
     //establece el contenido HTML de un elemento
     liElement.innerHTML = `
-      <article> 
-        <h2>${item.name}</h2>
-        <p>${item.shortDescription}</p>
-        <p>${item.description}</p>
+      <dl itemscope itemtype="Brigerton">
         <img src="${item.imageUrl}" alt="${item.name}" class="character-image">
-        <ul>
-          <li>Edad: ${item.facts.edad}</li>
-          <li>Situación Sentimental: ${item.facts.sitSentimental}</li>
-          <li>Pareja: ${item.facts.pareja}</li>
-        </ul>
-        <section class="extra-info">
-          <p><strong>Libro:</strong> ${item.extraInfo.libro}</p>
-          <p><strong>Serie:</strong> ${item.extraInfo.serie}</p>
-        </section>
-      </article>
+        <dt>Nombre:</dt><dd itemprop="name">${item.name}</dd>
+        <dt>Edad:</dt><dd itemprop="edad">${item.facts.edad}</dd>
+        <dt>Situación Sentimental:</dt><dd itemprop="sitSentimental">${item.facts.sitSentimental}</dd>
+        <dt>Pareja:</dt><dd itemprop="pareja">${item.facts.pareja}</dd>
+        <dt>Descripción Corta:</dt><dd itemprop="shortDescription">${item.shortDescription}</dd>
+        <dt>Descripción:</dt><dd itemprop="description">${item.description}</dd>
+        <p>Diferencias libros - serie</p>
+        <dt>Libro:</dt><dd itemprop="libro">${item.extraInfo.libro}</dd>
+        <dt>Serie:</dt><dd itemprop="serie">${item.extraInfo.serie}</dd>
+      </dl>
+   
     `;
     //crear los elementos de la lista y agregarlos al HTML
     ulElement.appendChild(liElement);

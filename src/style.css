@@ -54,4 +54,7 @@
   input, button {
     display: block;
     margin-top: 5px;
-  }  
+  } 
+  .descripcion, .extra-info {
+    display: none; /* Oculta la descripción y la información extra */
+}
