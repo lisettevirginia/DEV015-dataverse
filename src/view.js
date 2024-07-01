@@ -17,6 +17,7 @@ export const renderItems = (data) => {
        <img src="${item.imageUrl}" alt="${item.name}" class="character-image">
        <ul> 
          <li itemprop="name">Nombre: ${item.name}</li>
+         <li itemprop="family">Familia: ${item.facts.familia}</li>
          <li itemprop="age">Edad: ${item.facts.edad}</li> 
          <li itemprop="maritalStatus">Situación Sentimental: ${item.facts.sitSentimental}</li>
          <li itemprop="spouse">Pareja: ${item.facts.pareja}</li>
