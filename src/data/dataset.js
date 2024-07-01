@@ -1,6 +1,6 @@
 export default [ //volviendo a subir
   {
-    "id": "daphne-brigerton",
+    "id": "daphne-bridgerton",
     "name": "Daphne Bridgerton",
     "shortDescription": "La cuarta de los Bridgerton, una joven encantadora y decidida que busca un matrimonio por amor.",
     "description": "Daphne Bridgerton, la cuarta de los hermanos Bridgerton y la mayor de las hermanas, es una joven encantadora, decidida y de gran belleza. Con una educación impecable y un corazón noble, Daphne debuta en la sociedad londinense con la esperanza de encontrar un matrimonio basado en el amor verdadero. Su historia se centra en su relación con Simon Basset, el duque de Hastings, con quien entra en un acuerdo para fingir un cortejo que, inesperadamente, se transforma en una apasionada y real historia de amor. La perseverancia y bondad de Daphne la convierten en una protagonista entrañable y admirada.",
@@ -9,6 +9,7 @@ export default [ //volviendo a subir
       "edad": "21",
       "sitSentimental": "Casada",
       "pareja": "Simon Basset",
+      "familia": "Bridgerton",
     },
     "extraInfo": {
       "libro": "En las novelas de Julia Quinn, Daphne es presentada como una mujer sensata y práctica, cuya belleza y dulzura la convierten en una favorita de la sociedad. Su relación con Simon Basset se desarrolla con una mezcla de pasión y entendimiento mutuo, abarcando no solo el romance sino también los desafíos y malentendidos que enfrentan juntos.",
@@ -25,6 +26,7 @@ export default [ //volviendo a subir
       "edad": "29",
       "sitSentimental": "Casado",
       "pareja": "Kate Sharma/Sheffield",
+      "familia": "Bridgerton",
     },
     "extraInfo": {
       "libro": "En las novelas, Anthony es un hombre atormentado por la muerte de su padre, convencido de que su propio tiempo es limitado. Esta creencia lo lleva a evitar el amor verdadero, buscando un matrimonio de conveniencia. Su relación con Kate Sheffield, inicialmente combativa, se transforma en una profunda y conmovedora historia de amor.",
@@ -41,6 +43,7 @@ export default [ //volviendo a subir
       "edad": "23",
       "sitSentimental": "Casado",
       "pareja": "Penelope Featherington",
+      "familia": "Bridgerton",
     },
     "extraInfo": {
       "libro": "En los libros, Colin es conocido por su humor, su amor por los viajes y su talento para escribir, una faceta que se desarrolla con mayor profundidad a medida que avanza la serie literaria. Su romance con Penelope Featherington se va gestando lentamente a lo largo de varios libros, permitiéndonos ver cómo evoluciona su amistad en algo más profundo y significativo.",
@@ -55,8 +58,9 @@ export default [ //volviendo a subir
     "imageUrl": "https://i.postimg.cc/6qqWMkhp/4.jpg",
     "facts": {
       "edad": "27",
-      "sitSentimental": "Soltero/Amante",
+      "sitSentimental": "Soltero",
       "pareja": "Sophie Beckett",
+      "familia": "Bridgerton",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, la historia de Benedict se centra en su romance con Sophie Beckett. Su amor florece después de un encuentro en un baile de máscaras, seguido por años de separación y eventual reencuentro. La narrativa destaca su lucha interna entre las expectativas sociales y su deseo de seguir su corazón.",
@@ -72,7 +76,8 @@ export default [ //volviendo a subir
     "facts": {
       "edad": "18",
       "sitSentimental": "Soltera",
-      "pareja": "Sir Phillip Crane"
+      "pareja": "Sir Phillip Crane",
+      "familia": "Bridgerton",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Eloise se distingue por su intelecto y su resistencia a las normas sociales, con una fuerte inclinación hacia la independencia. Su historia de amor con Sir Phillip Crane es un viaje de autodescubrimiento y aceptación, que se desarrolla a través de una correspondencia que revela su verdadera personalidad.",
@@ -88,7 +93,8 @@ export default [ //volviendo a subir
    "facts": {
       "edad": "22",
       "sitSentimental": "Viuda",
-      "pareja": "John Stirling"
+      "pareja": "John Stirling",
+      "familia": "Bridgerton",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Francesca es un personaje complejo con una historia de amor que evoluciona a partir de una profunda pérdida. Su trama es rica en emociones, destacando su proceso de duelo y la renovación de su vida amorosa con Michael Stirling. Francesca pasa de ser una joven felizmente casada a una viuda devastada, y finalmente encuentra la fuerza para abrir su corazón de nuevo.",
@@ -104,7 +110,8 @@ export default [ //volviendo a subir
    "facts": {
       "edad": "11",
       "sitSentimental": "Soltera",
-      "pareja": "John Stirling",
+      "pareja": "Gareth St. Clair",
+      "familia": "Bridgerton",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Hyacinth es conocida por su audacia y curiosidad, con su historia central en Por un beso. Su romance con Gareth St. Clair es una mezcla de amor, intriga y descubrimiento, destacando su naturaleza inquisitiva y su capacidad para resolver misterios. En la serie de Netflix Bridgerton, Hyacinth es aún una niña pequeña y no ha tenido tanto desarrollo como sus hermanos mayores.",
@@ -121,6 +128,7 @@ export default [ //volviendo a subir
       "edad": "10",
       "sitSentimental": "Soltero",
       "pareja": "Lucinda Abernathy",
+      "familia": "Bridgerton",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Gregory es un personaje apasionado y decidido cuya historia de amor con Lady Lucinda Abernathy está llena de giros dramáticos y momentos emotivos. Su relato se centra en su búsqueda del amor verdadero y su determinación para superar cualquier obstáculo que se interponga en su camino. En la serie Gregory es aún un personaje joven que no ha alcanzado el desarrollo completo de su arco narrativo.",
@@ -137,6 +145,7 @@ export default [ //volviendo a subir
       "edad": "48",
       "sitSentimental": "Viuda",
       "pareja": "Edmund Bridgerton",
+      "familia": "Bridgerton",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Violet Bridgerton es consistentemente retratada como una matriarca fuerte y comprensiva, cuyo amor y apoyo son fundamentales para la unidad familiar. Su carácter se desarrolla a través de sus interacciones con sus hijos, ofreciéndoles guía en sus vidas amorosas y personales.",
@@ -153,6 +162,7 @@ export default [ //volviendo a subir
       "edad": "21",
       "sitSentimental": "Casada",
       "pareja": "Colin Bridgerton",
+      "familia": "Featherington",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Penelope es un personaje complejo cuyo viaje emocional se centra en su amor no correspondido por Colin Bridgerton y su vida secreta como Lady Whistledown. Su transformación de una joven tímida a una mujer segura de sí misma es un elemento crucial de su arco narrativo.",
@@ -168,8 +178,9 @@ export default [ //volviendo a subir
     "imageUrl": "https://i.postimg.cc/cCfSkdnZ/11.jpg",
    "facts": {
       "edad": "45",
-      "sitSentimental": "Casada",
+      "sitSentimental": "Viuda",
       "pareja": "Archibald Featherington",
+      "familia": "Featherington",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Portia Featherington es consistentemente ambiciosa y enfocada en los matrimonios ventajosos de sus hijas, pero su carácter no se explora con tanta profundidad como en la serie. ",
@@ -184,8 +195,9 @@ export default [ //volviendo a subir
     "imageUrl": "https://i.postimg.cc/SQ9kxft5/12.jpg",
    "facts": {
       "edad": "23",
-      "sitSentimental": "Soltera",
-      "pareja": "-",
+      "sitSentimental": "Casada",
+      "pareja": "Robert Huxley",
+      "familia": "Featherington",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Prudence Featherington es un personaje secundario que aporta humor y destaca las dificultades que enfrenta su madre en la búsqueda de matrimonios ventajosos para sus hijas. Su falta de habilidades sociales y su apariencia menos atractiva son temas recurrentes que la convierten en una figura de simpatía y comedia, Prudence mantiene muchas de estas características, pero se le da más tiempo en pantalla para explorar sus intentos fallidos y a veces patéticos de encontrar un esposo. La serie también acentúa su relación con su madre, Portia, y sus hermanas, mostrando la dinámica familiar de una manera más detallada.",
@@ -200,8 +212,9 @@ export default [ //volviendo a subir
     "imageUrl": "https://i.postimg.cc/hPqgzQkG/13.jpg",
    "facts": {
       "edad": "22",
-      "sitSentimental": "Soltera",
-      "pareja": "-",
+      "sitSentimental": "Casada",
+      "pareja": "Nigel Berbrooke",
+      "familia": "Featherington",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Philippa Featherington es un personaje que no recibe tanta atención como sus hermanas, a menudo quedando en un segundo plano. Se le ve como un complemento a las ambiciones y desventuras de su madre y hermanas, y su carácter se define más por su simplicidad y conformidad.",
@@ -218,6 +231,7 @@ export default [ //volviendo a subir
       "edad": "50",
       "sitSentimental": "Casada",
       "pareja": "Portia Featherington.",
+      "familia": "Featherington",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Lord Featherington es un personaje menos desarrollado, mencionado principalmente como una fuente de problemas financieros para su familia. Su papel es más una sombra que una presencia activa en la vida de sus hijas y esposa.",
@@ -234,6 +248,7 @@ export default [ //volviendo a subir
       "edad": "29",
       "sitSentimental": "Casado",
       "pareja": "Daphne Bridgerton.",
+      "familia": "Basset",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Simon Basset es presentado con un enfoque profundo en sus luchas internas y su tartamudez, que forma una parte crucial de su trauma infantil. Su relación con Daphne es compleja, evolucionando desde una alianza estratégica a un romance apasionado que lo obliga a confrontar sus promesas autoimpuestas.",
@@ -248,8 +263,9 @@ export default [ //volviendo a subir
     "imageUrl": "https://i.postimg.cc/kgTdp1BV/16.jpg",
    "facts": {
       "edad": "70",
-      "sitSentimental": "viuda",
+      "sitSentimental": "Viuda",
       "pareja": "Lord James Danbury.",
+      "familia": "Danbury",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, Lady Danbury es consistentemente retratada como una mujer formidable, cuya presencia y palabras pueden cambiar el curso de las conversaciones y los eventos sociales. Su carácter y sus acciones a menudo proporcionan sabiduría y orientación a los personajes más jóvenes, como Simon Basset y Hyacinth Bridgerton.",
@@ -266,6 +282,7 @@ export default [ //volviendo a subir
       "edad": "50",
       "sitSentimental": "Casada",
       "pareja": "Rey Jorge III",
+      "familia": "Real",
     },
     "extraInfo": {
       "libro": "Este personaje no aparece en los libros de Julia Quinn, donde el enfoque está más centrado en los protagonistas románticos y sus historias individuales, sin la intervención de la realeza en los acontecimientos sociales.",
@@ -282,6 +299,7 @@ export default [ //volviendo a subir
       "edad": "18",
       "sitSentimental": "Casada",
       "pareja": "Sir Phillip Crane",
+      "familia": "Featherington",
     },
     "extraInfo": {
       "libro": "En los libros, Marina es mencionada brevemente y su historia es mucho más secundaria.",
@@ -298,6 +316,7 @@ export default [ //volviendo a subir
       "edad": "25",
       "sitSentimental": "Amante",
       "pareja": "Anthony Bridgerton",
+      "familia": "No Tiene",
     },
     "extraInfo": {
       "libro": "En los libros, su equivalente es una figura mucho menos prominente, con un enfoque menor en su relación con Anthony.",
@@ -314,6 +333,7 @@ export default [ //volviendo a subir
       "edad": "30",
       "sitSentimental": "Casado",
       "pareja": "Alice Mondrich",
+      "familia": "Mondrich",
     },
     "extraInfo": {
       "libro": "En los libros, Will no aparece, ya que la historia de Julia Quinn no incluye este personaje.",
@@ -330,6 +350,7 @@ export default [ //volviendo a subir
       "edad": "30",
       "sitSentimental": "Amante",
       "pareja": "Benedict Bridgerton",
+      "familia": "No tiene",
     },
     "extraInfo": {
       "libro": "En los libros, su personaje es menos prominente y no tiene la misma profundidad ni la misma influencia en los eventos sociales.",
@@ -349,6 +370,7 @@ export default [ //volviendo a subir
       "edad": "35",
       "sitSentimental": "Casado",
       "pareja": "Eloise Bridgerton",
+      "familia": "Crane",
     },
     "extraInfo": {
       "libro": "En los libros, Sir Phillip Crane aparece principalmente en A Sir Phillip, con amor, donde se detalla su vida como viudo y su eventual relación con Eloise Bridgerton.",
@@ -365,6 +387,7 @@ export default [ //volviendo a subir
       "edad": "20",
       "sitSentimental": "Soltera",
       "pareja": "-",
+      "familia": "Cowper",
     },
     "extraInfo": {
       "libro": "En los libros, Cressida Cowper es una antagonista secundaria, conocida por su belleza y su actitud despectiva hacia los Bridgerton y otros personajes principales. Aunque su presencia es notoria, su papel es menos desarrollado que en la serie.",
@@ -381,6 +404,7 @@ export default [ //volviendo a subir
       "edad": "35",
       "sitSentimental": "Casado",
       "pareja": "Lucy Granville",
+      "familia": "Granville",
     },
     "extraInfo": {
       "libro": "En los libros de Julia Quinn, el personaje de Granville no existe; su inclusión en la serie amplía la exploración de temas como la identidad y la aceptación personal. La serie utiliza a Granville para abordar cuestiones de orientación sexual y la lucha por la autenticidad en una época restrictiva, ofreciendo un contraste interesante con los otros personajes y sus historias.",
