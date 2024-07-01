@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="cab" class="cab">
-        <h1 id="titulo" class="titulo">Los Bridgerton</h1>
+    <header>
+        <h1>Los Bridgerton!</h1>
     </header>
     
     <main>
         <section>
             <h2>Descubre sus secretos</h2>
             <form id="filter-form">
-                <label for="filtrar">Filtrar por:</label>
-                <select id="filter-select">
+                <label for="">Filtrar por:</label>
+                <select data-testid="select-filter" name="datos">
                     <option value="nombres">Nombres</option>
                     <option value="edad">Edad</option>
                     <option value="estado-civil">Situación sentimental</option>
                 </select>
-                <label for="ordenar">Ordenar por:</label>
-                  <select id="sort-select">
+                <label for="">Ordenar por:</label>
+                  <select data-testid="select-sort" name="alfabetico">
                     <option value="asc">Ordenar A-Z</option>
                     <option value="des">Ordenar Z-A</option>
                   </select>   
@@ -31,7 +31,10 @@
         </section>
         
         <section id="root">
-            <!-- Aquí se insertarán los elementos renderizados -->
+            <ul id="character-list">
+                <li id="character-item"></li>
+                <!-- Aquí se insertarán los elementos renderizados -->
+            </ul>
         </section>
     </main>
     
