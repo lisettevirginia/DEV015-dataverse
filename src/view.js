@@ -13,14 +13,27 @@ export const renderItems = (data) => {
     liElement.idName = 'character-item';
     //establece el contenido HTML de un elemento
     liElement.innerHTML = `
-       <article itemscope itemtype="http://schema.org/Person"> 
+       <article> 
        <img src="${item.imageUrl}" alt="${item.name}" class="character-image">
-       <ul> 
-         <li itemprop="name">Nombre: ${item.name}</li>
-         <li itemprop="family">Familia: ${item.facts.familia}</li>
-         <li itemprop="age">Edad: ${item.facts.edad}</li> 
-         <li itemprop="maritalStatus">Situación Sentimental: ${item.facts.sitSentimental}</li>
-         <li itemprop="spouse">Pareja: ${item.facts.pareja}</li>
+       <ul itemscope itemtype="http://schema.org/Person"> 
+         <li itemscope itemtype="http://schema.org/Person">
+         <spam itemprop="name">Nombre: ${item.name}</span>
+         </li>
+         <li itemscope itemtype="http://schema.org/Person">
+         <spam itemprop="family">Nombre: ${item.facts.familia}</span>
+         </li>
+         <li itemscope itemtype="http://schema.org/Person">
+         <spam itemprop="age">Edad: ${item.facts.edad}</span>
+         </li> 
+
+         <li itemscope itemtype="http://schema.org/Person">
+         <spam itemprop="maritalStatus">Situación Sentimental: ${item.facts.sitSentimental}</span>
+         </li>
+
+         <li itemscope itemtype="http://schema.org/Person">
+         <spam itemprop="spouse">Pareja: ${item.facts.pareja}</span>
+         </li>
+
        </ul> 
        <dl> 
          <dt>Descripción Corta:</dt> <dd itemprop="description">${item.shortDescription}</dd>
