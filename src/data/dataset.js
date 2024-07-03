@@ -1,4 +1,4 @@
-const dataset = [ //volviendo a subir
+export const characters = [
   {
     "id": "daphne-bridgerton",
     "name": "Daphne Bridgerton",
@@ -412,4 +412,3 @@ const dataset = [ //volviendo a subir
     }
   }
 ];
-export default dataset;
