@@ -13,10 +13,10 @@
     
     <main>
         <section>
-            <h2>Descubre sus secretos</h2>
+            <h2>Descubre sus secretos!</h2>
             <form id="filter-form">
-                <label for="">Filtrar por:</label>
-                <select data-testid="select-filter" name="Familia">
+                <label for="familyFilter">Filtrar por:</label>
+                <select id="family-filter" data-testid="select-filter" name="familyFilter">
                     <option value="bridgerton">Bridgerton</option>
                     <option value="featherington">Featherington</option>
                     <option value="basset">Basset</option>
@@ -28,8 +28,8 @@
                     <option value="cowper">Cowper</option>
                     <option value="granville">Granville</option>
                 </select>
-                <label for="">Ordenar por:</label>
-                  <select data-testid="select-sort" name="alfabetico">
+                <label for="alfabetico">Ordenar por:</label>
+                  <select id="alfabetico" data-testid="select-sort" name="alfabetico">
                     <option value="asc">Ordenar A-Z</option>
                     <option value="des">Ordenar Z-A</option>
                   </select>   
@@ -39,7 +39,7 @@
         
         <section id="root">
             <ul id="character-list">
-                <li id="character-item"></li>
+                <li style="list-style-type: none;">
                 <!-- Aquí se insertarán los elementos renderizados -->
             </ul>
         </section>

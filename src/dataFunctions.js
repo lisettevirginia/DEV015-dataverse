@@ -1,13 +1,18 @@
-// aqui vamos a desarrollar nuestras propias funciones.
-export function filtrerData(data, filterBy, value) {
+export function filterData(data, filterBy, value) {
+  if (!data || !Array.isArray(data)) {
+    return []; // Retorna un array vacío si los datos no son válidos o no son un array
+  }
 
-  return data.filtrer(item => item[filterBy]===value);
-
+  return data.filter(item => {
+    // Asegurarse de que 'item' tenga la propiedad 'facts' y 'facts' tenga la propiedad 'familia'
+    return item && item.facts && item.facts.familia && item.facts.familia === value;
+  });
 }
+
 
 export function sortData(data, sortBy, sortOrder = 'asc') {
 
-  return data.slice(),sort((a,b) => {
+  return data.slice().sort((a,b) => {
     if (a[sortBy] < b[sortBy]) {
       return sortOrder === 'asc' ? -1 : 1;
     }

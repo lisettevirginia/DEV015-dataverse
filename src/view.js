@@ -2,7 +2,7 @@ export const renderItems = (data) => {
   
   // Crear un elemento <ul> con una clase específica
   const ulElement = document.createElement('ul');
-  ulElement.idName = 'character-list';
+  ulElement.id = 'character-list';
 
   // Recorrer la data y crear un elemento <li> por cada entrada
   data.forEach(item => {
@@ -10,7 +10,7 @@ export const renderItems = (data) => {
     
     liElement.setAttribute('itemtype', 'http://schema.org/Person');
     liElement.setAttribute('itemscope', '');
-    liElement.idName = 'character-item';
+    liElement.id = 'character-item';
     //establece el contenido HTML de un elemento
     liElement.innerHTML = `
        <article> 
